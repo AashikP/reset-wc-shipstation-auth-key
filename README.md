@@ -7,10 +7,12 @@ Removes the active authentication key so that WooCommerce Shipstation integratio
 ## Usage:
 
 * Install and Activate this plugin
-* Find the `Reset ShipStation Authentication Key` tool under *WooCommerce > Tools* (or *WooCommerce > Status > Tools*)
+* Find the `Reset ShipStation Authentication Key` tool under *WooCommerce > Tools* (or *WooCommerce > Status > Tools*):
+    screenshot.png<img width="2541" alt="screenshot" src="https://user-images.githubusercontent.com/17475174/121876122-d1f6dd00-cd26-11eb-8adf-5d9886248a17.png">
 * Click `Delete Key` on the right
 * Find the new key under *WooCommerce > Settings > Integration > ShipStation* 
 * Access your ShipStation Account > Settings > Selling Channels > Edit the linked WooCommerce Site
 * Replace the empty `Authentication Key` field for the store with the newly generated key.
 * Delete the plugin once you've successfully reset the key.
 
+**P.S: If you reset the authentication key, but don't update the new key in ShipStation account, the integration between your store and ShipStation account will break.**
