@@ -2,14 +2,14 @@
 /**
  * Plugin Name: Reset WC Shipstation Authentication Key
  * Description: Removes the active authentication key so that WooCommerce Shipstation integration extension can generate a new key. You then have to manually update the new authentication key on your selling channel.
- * Version: 0.9
+ * Version: 1.0.0
  * Author: AashikP
  * Author URI: https://aashikp.com
  * Text Domain: reset-wc-shipstation-auth-key
  * Requires at least: 4.9.14
  * Requires PHP: 7.3.5
  * WC requires at least: 4.0.0
- * WC tested up to: 5.3.0
+ * WC tested up to: 5.4.1
  *
  * @package Reset WC Shipstation Authentication Key
  */
